@@ -1,0 +1,22 @@
+# The program:
+Given two angles of a triangle, calculate the third angle.
+
+# INPUT:
+A single line containing the two angles a et b separated by a space.
+
+# OUTPUT:
+A single line containing the last angle c.
+
+# CONSTRAINTS:
+1≤a<180
+1≤b<180
+
+# EXAMPLE:
+Input
+1 1
+Output
+178
+# solution...
+a, b = [int(i) for i in input().split()]
+c = 180-(a+b)
+print(c)
